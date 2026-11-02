@@ -1,0 +1,25 @@
+<article class="page shop">
+  <nav class="crumbs" aria-label="現在地"><a href="${root}">地図</a><a href="${root}areas/">地域から探す</a><a href="../../">$sub_name</a><a href="../">$town</a><span>$name</span></nav>
+  <header class="shop__head">
+    <p class="shop__town">$town</p>
+    <h1 class="shop__name">$name</h1>
+    $reading_html
+  </header>
+  <div class="shop__video">
+$videos_html
+  </div>
+  <dl class="facts">
+    <div><dt>所在地</dt><dd>$sub_name・$town<br>$address</dd></div>
+    $menu_html
+    $features_html
+    $official_html
+    <div><dt>確認日</dt><dd>$checked_on</dd></div>
+  </dl>
+  <section class="shop__map" aria-labelledby="h-map">
+    <h2 id="h-map" class="shop__h2">地図</h2>
+    <div id="map" class="map map--small" data-root="$root"></div>
+    <p class="shop__pin">ピンの決め方：$position_method</p>
+  </section>
+  <p class="shop__note">営業時間・定休日・価格は載せていません。出かける前に店の公式の情報で確かめてください。</p>
+</article>
+<script type="application/json" id="shops-data">$shops_json</script>

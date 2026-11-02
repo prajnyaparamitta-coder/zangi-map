@@ -1,0 +1,1134 @@
+{
+  "shops": [
+    {
+      "id": "s001",
+      "slug": "s001",
+      "name": "KITCHEN 鑓水商店",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区南1条西19丁目1-251 1F",
+      "lat": 43.056129,
+      "lon": 141.328992,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "ln8JTVq1YG0"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [
+        {
+          "label": "公式サイト",
+          "url": "http://yarimizu-shoten.site/"
+        }
+      ],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s002",
+      "slug": "s002",
+      "name": "SAPPORO餃子製造所 狸小路店",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区南2条西5丁目",
+      "lat": 43.056963,
+      "lon": 141.349922,
+      "position_method": "OpenStreetMap にある店の位置",
+      "videos": [
+        "zN3phntqEXQ"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [
+        {
+          "label": "公式サイト",
+          "url": "https://sapporo-gyoza.jp/shop_tnk.php"
+        }
+      ],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s003",
+      "slug": "s003",
+      "name": "TKPカフェテリア",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区北2条西2丁目19 アパホテル〈TKP札幌駅前〉1F",
+      "lat": 43.064475,
+      "lon": 141.35329,
+      "position_method": "OpenStreetMap にある、店の入る建物の位置",
+      "videos": [
+        "GJ2L7tkCvxo"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s004",
+      "slug": "s004",
+      "name": "ZANGI一番",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区北4条西1丁目",
+      "lat": 43.06651,
+      "lon": 141.354815,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "CuF0JxMzggE"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s005",
+      "slug": "s005",
+      "name": "あじ太郎 本店",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区南4条西14丁目2-26 杉崎ビル1F",
+      "lat": 43.053479,
+      "lon": 141.335663,
+      "position_method": "住所を国土交通省の位置参照情報（街区）と突き合わせた位置",
+      "videos": [
+        "h9qH3dmiyL4"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s006",
+      "slug": "s006",
+      "name": "ざんぎバルHANA",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市東区北14条東16丁目2-20",
+      "lat": 43.081742,
+      "lon": 141.378479,
+      "position_method": "住所を国土交通省の位置参照情報（街区）と突き合わせた位置",
+      "videos": [
+        "J75ugepSJzI"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s007",
+      "slug": "s007",
+      "name": "やきとりザンギNo.1",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市手稲区富丘1条4丁目2-11",
+      "lat": 43.109413,
+      "lon": 141.252882,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "cbNrkzkWnmU"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s008",
+      "slug": "s008",
+      "name": "やき鳥キィー",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区南3条西3丁目 G DINING札幌4F",
+      "lat": 43.056765,
+      "lon": 141.354458,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "uKey61hOG8k"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s009",
+      "slug": "s009",
+      "name": "やらぬ善よりやる偽善",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市白石区東札幌2条5丁目9-15",
+      "lat": 43.046271,
+      "lon": 141.393463,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "4t37ojndFJI"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s010",
+      "slug": "s010",
+      "name": "ザンギうどん 一久 狸小路店",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区南2条西1丁目5-1 広和ビルNO21 101",
+      "lat": 43.057973,
+      "lon": 141.356675,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "bPRrrgB6iIg"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [
+        {
+          "label": "公式サイト",
+          "url": "https://www.udon19.com/"
+        }
+      ],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s011",
+      "slug": "s011",
+      "name": "中国料理 布袋 赤れんがテラス店",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区北2条西4丁目1 赤れんがテラス3F",
+      "lat": 43.064089,
+      "lon": 141.351177,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "josyweZAsxg"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [
+        {
+          "label": "公式サイト",
+          "url": "https://zangihoteigroup.com/"
+        }
+      ],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s012",
+      "slug": "s012",
+      "name": "大衆食堂 十勝居酒屋 一心",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区北2条西3丁目1-20 フコク生命越山ビル2F",
+      "lat": 43.064221,
+      "lon": 141.351671,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "SP15cHnqX0M"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s013",
+      "slug": "s013",
+      "name": "居酒屋 寅",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区南3条西4丁目2 石原ビル1F",
+      "lat": 43.056329,
+      "lon": 141.352929,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "tMadFey9CFo"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s014",
+      "slug": "s014",
+      "name": "山の猿 アピア店",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市中央区北5条西4丁目 アピア内",
+      "lat": 43.067239,
+      "lon": 141.350713,
+      "position_method": "OpenStreetMap にある、店の入る建物の位置",
+      "videos": [
+        "hZV5-5ZxFmY"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s015",
+      "slug": "s015",
+      "name": "弁当 大洋",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市南区真駒内本町6丁目3-6",
+      "lat": 43.003363,
+      "lon": 141.348361,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "cwE6q8fgOTM"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s016",
+      "slug": "s016",
+      "name": "食彩 たまな",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市白石区南郷通1丁目北1-19",
+      "lat": 43.046183,
+      "lon": 141.3977,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "3t5QLEiyteI"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s017",
+      "slug": "s017",
+      "name": "魚屋直営 みなとや食堂 三代目",
+      "reading": "",
+      "subprefecture": "ishikari",
+      "town": "札幌市",
+      "town_slug": "sapporo",
+      "address": "札幌市北区新琴似7条7丁目8-1",
+      "lat": 43.11481,
+      "lon": 141.325073,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "9rrWfufzBh8"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s018",
+      "slug": "s018",
+      "name": "ザンギ and 中華飯 あしの食堂 ドコ",
+      "reading": "",
+      "subprefecture": "kushiro",
+      "town": "釧路市",
+      "town_slug": "kushiro",
+      "address": "釧路市芦野2丁目5-8",
+      "lat": 43.012659,
+      "lon": 144.394704,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "qQlJIGhx8lY"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s019",
+      "slug": "s019",
+      "name": "炉ばたと釜飯の店 釜吉",
+      "reading": "",
+      "subprefecture": "kushiro",
+      "town": "釧路市",
+      "town_slug": "kushiro",
+      "address": "釧路市栄町3丁目2",
+      "lat": 42.983854,
+      "lon": 144.388267,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "zen4-RHpH_I"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s020",
+      "slug": "s020",
+      "name": "鳥善",
+      "reading": "",
+      "subprefecture": "kushiro",
+      "town": "釧路市",
+      "town_slug": "kushiro",
+      "address": "釧路市栄町2-15",
+      "lat": 42.983368,
+      "lon": 144.388831,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "N3ln75OWhJ8"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s021",
+      "slug": "s021",
+      "name": "鳥松",
+      "reading": "",
+      "subprefecture": "kushiro",
+      "town": "釧路市",
+      "town_slug": "kushiro",
+      "address": "釧路市栄町3丁目1-1",
+      "lat": 42.983807,
+      "lon": 144.387947,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "zJinxLeV4DY"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s022",
+      "slug": "s022",
+      "name": "Cafe Credo（旭川商工会議所内）",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市常盤通1丁目 旭川商工会議所内",
+      "lat": 43.775082,
+      "lon": 142.361934,
+      "position_method": "OpenStreetMap にある、店の入る建物の位置",
+      "videos": [
+        "XBgNjbZjjik"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s023",
+      "slug": "s023",
+      "name": "とり丸亭",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市永山4条10丁目1-17",
+      "lat": 43.797287,
+      "lon": 142.416874,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "pCr8sEvcKEM"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s024",
+      "slug": "s024",
+      "name": "めん丸",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市川端町7条10丁目1",
+      "lat": 43.781118,
+      "lon": 142.337771,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "PnKM7NMD1VU"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s025",
+      "slug": "s025",
+      "name": "テイクアウト専門店 ピーコック",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市2条通12丁目6",
+      "lat": 43.765418,
+      "lon": 142.368916,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "chAVTNAzh1M"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s026",
+      "slug": "s026",
+      "name": "台湾料理 味源 南六条通店",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市南5条通26丁目504-9-7",
+      "lat": 43.749982,
+      "lon": 142.385346,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "DpzhbaZAtTw"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s027",
+      "slug": "s027",
+      "name": "居酒家 ひょうたん",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市東光11条3丁目4-9",
+      "lat": 43.745262,
+      "lon": 142.397384,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "-zG_aSO3ppA"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s028",
+      "slug": "s028",
+      "name": "居酒屋うり坊",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市東光6条7丁目4-2",
+      "lat": 43.749423,
+      "lon": 142.413161,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "BDFWULVGP0k"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s029",
+      "slug": "s029",
+      "name": "居酒屋しろふくろう",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市3条通8丁目1705-32",
+      "lat": 43.767815,
+      "lon": 142.360821,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "nnKNLsL9p44"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [
+        {
+          "label": "公式サイト",
+          "url": "https://izakayashirofuku.owst.jp/"
+        }
+      ],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s030",
+      "slug": "s030",
+      "name": "麺や虎鉄 大町店",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "旭川市",
+      "town_slug": "asahikawa",
+      "address": "旭川市大町2条3丁目21-10",
+      "lat": 43.786223,
+      "lon": 142.362834,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "eQ9A2bOm5Cs"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s031",
+      "slug": "s031",
+      "name": "函館ザンギ酒場 ザンギ堂",
+      "reading": "",
+      "subprefecture": "oshima",
+      "town": "函館市",
+      "town_slug": "hakodate",
+      "address": "函館市若松町12-8 ハコビバ内",
+      "lat": 41.774635,
+      "lon": 140.728283,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "gEryM3QIkB4"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s032",
+      "slug": "s032",
+      "name": "居酒屋 宝来東屋",
+      "reading": "",
+      "subprefecture": "oshima",
+      "town": "函館市",
+      "town_slug": "hakodate",
+      "address": "函館市宝来町20-9",
+      "lat": 41.761044,
+      "lon": 140.721356,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "ExvHUE_ohAY"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s033",
+      "slug": "s033",
+      "name": "木村食堂",
+      "reading": "",
+      "subprefecture": "tokachi",
+      "town": "帯広市",
+      "town_slug": "obihiro",
+      "address": "帯広市緑ヶ丘2条通4丁目8-11 カリフビル1階",
+      "lat": 42.907767,
+      "lon": 143.183054,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "tPQRsmTYydo"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s034",
+      "slug": "s034",
+      "name": "鶏の伊藤",
+      "reading": "",
+      "subprefecture": "tokachi",
+      "town": "帯広市",
+      "town_slug": "obihiro",
+      "address": "帯広市西5条28丁目2-8",
+      "lat": 42.899459,
+      "lon": 143.200932,
+      "position_method": "住所を国土交通省の位置参照情報（街区）と突き合わせた位置",
+      "videos": [
+        "YYNVBgVIpnE"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s035",
+      "slug": "s035",
+      "name": "まんぷく亭 1号店",
+      "reading": "",
+      "subprefecture": "shiribeshi",
+      "town": "小樽市",
+      "town_slug": "otaru",
+      "address": "小樽市潮見台1丁目15-5 開発局小樽開発建設部内",
+      "lat": 43.181277,
+      "lon": 141.017492,
+      "position_method": "住所を国土交通省の位置参照情報（街区）と突き合わせた位置",
+      "videos": [
+        "wsTdl5KvXi0"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s036",
+      "slug": "s036",
+      "name": "タケダのザンギ",
+      "reading": "",
+      "subprefecture": "shiribeshi",
+      "town": "小樽市",
+      "town_slug": "otaru",
+      "address": "小樽市堺町4-18",
+      "lat": 43.193168,
+      "lon": 141.006741,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "XBEMnRXBRTI"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s037",
+      "slug": "s037",
+      "name": "レストラン太郎",
+      "reading": "",
+      "subprefecture": "shiribeshi",
+      "town": "小樽市",
+      "town_slug": "otaru",
+      "address": "小樽市銭函1丁目31-1 ノ-スウェ-ブ7",
+      "lat": 43.144454,
+      "lon": 141.14615,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "VnsvY6GJeqg"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s038",
+      "slug": "s038",
+      "name": "小樽地方合同庁舎の食堂",
+      "reading": "",
+      "subprefecture": "shiribeshi",
+      "town": "小樽市",
+      "town_slug": "otaru",
+      "address": "小樽市港町5-2 小樽地方合同庁舎内",
+      "lat": 43.200115,
+      "lon": 141.004104,
+      "position_method": "OpenStreetMap にある、店の入る建物の位置",
+      "videos": [
+        "5tt6gWCYCKQ"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s039",
+      "slug": "s039",
+      "name": "若鶏時代 なると 本店",
+      "reading": "",
+      "subprefecture": "shiribeshi",
+      "town": "小樽市",
+      "town_slug": "otaru",
+      "address": "小樽市稲穂3丁目16-13",
+      "lat": 43.200522,
+      "lon": 140.996414,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "BUtiT7ZJPqo"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s040",
+      "slug": "s040",
+      "name": "お持ち帰り半身揚げザンギ専門店 半蔵",
+      "reading": "",
+      "subprefecture": "okhotsk",
+      "town": "北見市",
+      "town_slug": "kitami",
+      "address": "北見市美芳町2丁目1-12",
+      "lat": 43.809404,
+      "lon": 143.879049,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "r4FDuBvqzho"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s041",
+      "slug": "s041",
+      "name": "本気食堂",
+      "reading": "",
+      "subprefecture": "okhotsk",
+      "town": "北見市",
+      "town_slug": "kitami",
+      "address": "北見市常盤町1丁目5-42",
+      "lat": 43.794364,
+      "lon": 143.892543,
+      "position_method": "OpenStreetMap にある店の位置",
+      "videos": [
+        "WmJOAhwhF1s"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s042",
+      "slug": "s042",
+      "name": "ふじ亭",
+      "reading": "",
+      "subprefecture": "iburi",
+      "town": "室蘭市",
+      "town_slug": "muroran",
+      "address": "室蘭市東町2丁目17-8",
+      "lat": 42.347742,
+      "lon": 141.026801,
+      "position_method": "OpenStreetMap にある店の位置",
+      "videos": [
+        "FusAJd2EVWY"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s043",
+      "slug": "s043",
+      "name": "らんらん食堂",
+      "reading": "",
+      "subprefecture": "iburi",
+      "town": "室蘭市",
+      "town_slug": "muroran",
+      "address": "室蘭市中島本町1丁目12-27",
+      "lat": 42.350614,
+      "lon": 141.009252,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "hvXOb215VwI"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s044",
+      "slug": "s044",
+      "name": "あべちゃんち",
+      "reading": "",
+      "subprefecture": "sorachi",
+      "town": "美唄市",
+      "town_slug": "bibai",
+      "address": "美唄市南美唄町中央通1",
+      "lat": 43.313591,
+      "lon": 141.876992,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "L-M0_iDRsSk"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s045",
+      "slug": "s045",
+      "name": "居酒屋こころ",
+      "reading": "",
+      "subprefecture": "sorachi",
+      "town": "美唄市",
+      "town_slug": "bibai",
+      "address": "美唄市大通西1条南4丁目1-5",
+      "lat": 43.328366,
+      "lon": 141.859131,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "cramyqdnpXk"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s046",
+      "slug": "s046",
+      "name": "そば処 富貴庵",
+      "reading": "",
+      "subprefecture": "nemuro",
+      "town": "中標津町",
+      "town_slug": "nakashibetsu",
+      "address": "標津郡中標津町東39条南1丁目",
+      "lat": 43.567282,
+      "lon": 145.009712,
+      "position_method": "OpenStreetMap にある店の位置",
+      "videos": [
+        "4ZHDOb5-gR8"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s047",
+      "slug": "s047",
+      "name": "居酒屋 ときわ",
+      "reading": "",
+      "subprefecture": "nemuro",
+      "town": "中標津町",
+      "town_slug": "nakashibetsu",
+      "address": "標津郡中標津町西1条北1丁目16",
+      "lat": 43.548444,
+      "lon": 144.971713,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "0PmMsLDfrcI"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s048",
+      "slug": "s048",
+      "name": "高島屋食堂",
+      "reading": "",
+      "subprefecture": "sorachi",
+      "town": "三笠市",
+      "town_slug": "mikasa",
+      "address": "三笠市本町226",
+      "lat": 43.239419,
+      "lon": 141.877265,
+      "position_method": "OpenStreetMap にある店の位置",
+      "videos": [
+        "2C9bjgbjeb0"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s049",
+      "slug": "s049",
+      "name": "ラーメン飯店 大将",
+      "reading": "",
+      "subprefecture": "tokachi",
+      "town": "広尾町",
+      "town_slug": "hiroo",
+      "address": "広尾郡広尾町並木通東3丁目",
+      "lat": 42.308248,
+      "lon": 143.338249,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "E8RbxwgfXcU"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s050",
+      "slug": "s050",
+      "name": "ごはん処 あさひ屋 旭川空港店",
+      "reading": "",
+      "subprefecture": "kamikawa",
+      "town": "東神楽町",
+      "town_slug": "higashikagura",
+      "address": "上川郡東神楽町東2線16-98 旭川空港",
+      "lat": 43.670793,
+      "lon": 142.454098,
+      "position_method": "OpenStreetMap にある、店の入る建物の位置",
+      "videos": [
+        "aWBJLpZPZAQ"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s051",
+      "slug": "s051",
+      "name": "食事処 慎鮨",
+      "reading": "",
+      "subprefecture": "tokachi",
+      "town": "清水町",
+      "town_slug": "shimizu",
+      "address": "上川郡清水町南1条4丁目18番地4",
+      "lat": 43.015511,
+      "lon": 142.884188,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "71BIjU3BCvw"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [
+        {
+          "label": "公式サイト",
+          "url": "https://shinzushi-town-shimizu.com/"
+        }
+      ],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s052",
+      "slug": "s052",
+      "name": "らーめん チキンポーク",
+      "reading": "",
+      "subprefecture": "sorachi",
+      "town": "滝川市",
+      "town_slug": "takikawa",
+      "address": "滝川市空知町2丁目8-14",
+      "lat": 43.547545,
+      "lon": 141.906684,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "oL3krhyHlkw"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s053",
+      "slug": "s053",
+      "name": "ソーダ食堂",
+      "reading": "",
+      "subprefecture": "iburi",
+      "town": "登別市",
+      "town_slug": "noboribetsu",
+      "address": "登別市千歳町6丁目1-98",
+      "lat": 42.421984,
+      "lon": 141.116442,
+      "position_method": "OpenStreetMap にある店の位置",
+      "videos": [
+        "P0I4SiNuKgs"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s054",
+      "slug": "s054",
+      "name": "串揚げ屋 丈 ～Joh～",
+      "reading": "",
+      "subprefecture": "iburi",
+      "town": "苫小牧市",
+      "town_slug": "tomakomai",
+      "address": "苫小牧市花園町3丁目12-12",
+      "lat": 42.63685,
+      "lon": 141.568597,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "FtU7TrxbtdU"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "s055",
+      "slug": "s055",
+      "name": "南蛮酊",
+      "reading": "",
+      "subprefecture": "kushiro",
+      "town": "釧路町",
+      "town_slug": "kushiro-cho",
+      "address": "釧路郡釧路町遠矢1丁目39",
+      "lat": 43.047193,
+      "lon": 144.459435,
+      "position_method": "人が OpenStreetMap の地図上で置いた",
+      "videos": [
+        "dQQHrr7KUeE"
+      ],
+      "menu_name": "",
+      "features": "",
+      "official_links": [],
+      "checked_on": "2026-11-02"
+    }
+  ]
+}

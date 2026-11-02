@@ -1,0 +1,37 @@
+# data/ や templates/ を書き換えて保存（push）したら、ページを書き出し直す。
+name: ページの書き出し
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "templates/**"
+      - "assets/**"
+      - "scripts/build.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ページを書き出す
+        run: python3 scripts/build.py
+      - name: 変わったところを保存する
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "ページを書き出した"
+          git push

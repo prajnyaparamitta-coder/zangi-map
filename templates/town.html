@@ -1,0 +1,9 @@
+<div class="page">
+  <nav class="crumbs" aria-label="現在地"><a href="${root}">地図</a><a href="${root}areas/">地域から探す</a><a href="../">$sub_name</a><span>$name</span></nav>
+  <h1 class="page__title">$name<span class="page__count">$count店</span></h1>
+  <div id="map" class="map map--small" data-root="$root"></div>
+  <ul class="list list--shops">
+$items
+  </ul>
+</div>
+<script type="application/json" id="shops-data">$shops_json</script>

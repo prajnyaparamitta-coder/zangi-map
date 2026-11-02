@@ -1,0 +1,186 @@
+/* ザンギの地図 — スマートフォンを先に組み、広い画面で地図と動画を横に並べる
+   色：見出しと枠は手本（Walkarium）の深い緑、強調は揚げ色 */
+:root {
+  --paper: #f3f5f1;
+  --card: #ffffff;
+  --ink: #1d2a27;
+  --muted: #5b6965;
+  --line: #dde4dc;
+  --green: #294943;
+  --green-ink: #f1f5f2;
+  --crust: #b5611a;
+  --crust-deep: #8e4a12;
+  --crust-soft: #f5e6d4;
+  --radius: 10px;
+  --font: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+  --header-h: 56px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a18;
+    --card: #1b2421;
+    --ink: #e5ece8;
+    --muted: #9db0aa;
+    --line: #2c3935;
+    --green: #213a35;
+    --green-ink: #e8f0ec;
+    --crust: #e0914a;
+    --crust-deep: #f0a964;
+    --crust-soft: #3a2a1a;
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.7;
+}
+a { color: var(--crust-deep); }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--crust); outline-offset: 2px; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+
+.skip { position: absolute; left: -999px; top: 0; }
+.skip:focus { left: 8px; top: 8px; z-index: 2000; background: var(--card); padding: 6px 10px; }
+
+/* ヘッダー */
+.site-header {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--green); color: var(--green-ink);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.site-header__inner {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px;
+  min-height: var(--header-h);
+  padding: 6px max(16px, env(safe-area-inset-right, 0px)) 6px max(16px, env(safe-area-inset-left, 0px));
+  max-width: 1280px; margin: 0 auto;
+}
+.site-logo { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; font-weight: 700; font-size: 1.1rem; letter-spacing: .04em; }
+.site-logo__mark {
+  width: 22px; height: 19px; background: var(--crust);
+  border-radius: 58% 42% 55% 45% / 52% 60% 40% 48%;
+  box-shadow: inset -3px -3px 0 rgba(0,0,0,.18), 0 0 0 2px rgba(255,255,255,.15);
+}
+.site-nav { display: flex; gap: 2px 14px; flex-wrap: wrap; margin-left: auto; font-size: .88rem; }
+.site-nav a { color: inherit; text-decoration: none; opacity: .82; padding: 4px 0; border-bottom: 2px solid transparent; }
+.site-nav a:hover, .site-nav a[aria-current="page"] { opacity: 1; border-bottom-color: var(--crust); }
+@media (max-width: 520px) {
+  .site-nav { margin-left: 0; width: 100%; gap: 0 14px; font-size: .84rem; }
+  .site-nav a { white-space: nowrap; }
+}
+
+/* トップ：地図と動画 */
+.top { display: grid; grid-template-columns: 1fr; }
+.map { background: #dfe7e2; }
+.map--top { height: 46vh; min-height: 280px; }
+.map--small { height: 260px; border-radius: var(--radius); border: 1px solid var(--line); }
+.top__panel { padding: 16px max(16px, env(safe-area-inset-right, 0px)) 24px max(16px, env(safe-area-inset-left, 0px)); display: flex; flex-direction: column; gap: 14px; }
+.player__frame { position: relative; aspect-ratio: 16 / 9; width: 100%; background: var(--green); border-radius: var(--radius); overflow: hidden; }
+.player__frame iframe, .player__frame #player { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.now { display: flex; flex-direction: column; gap: 6px; }
+.now__town { margin: 0; color: var(--crust-deep); font-size: .85rem; font-weight: 700; letter-spacing: .06em; }
+.now__name { margin: 0; font-size: 1.3rem; line-height: 1.4; text-wrap: balance; }
+.now__addr { margin: 0; color: var(--muted); font-size: .9rem; }
+.now__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.now__note { margin: 0; color: var(--muted); font-size: .8rem; min-height: 1.2em; }
+.noscript { padding: 16px; margin: 0; }
+@media (min-width: 960px) {
+  .top { grid-template-columns: minmax(0, 1.5fr) minmax(360px, 1fr); }
+  .map--top { height: calc(100vh - var(--header-h)); position: sticky; top: var(--header-h); }
+  .top__panel { padding: 24px; }
+}
+
+/* ボタン */
+.btn {
+  font: inherit; font-size: .92rem; font-weight: 700;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 44px; padding: 8px 16px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink);
+  text-decoration: none; cursor: pointer;
+}
+.btn:hover { border-color: var(--crust); }
+.btn--primary { background: var(--crust); border-color: var(--crust); color: #fff; }
+.btn--primary:hover { background: var(--crust-deep); border-color: var(--crust-deep); }
+.btn[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: var(--green-ink); }
+
+/* 地図のピン（画像を使わず CSS で描く） */
+.pin { background: none; border: 0; }
+.pin span {
+  display: block; width: 18px; height: 18px; border-radius: 50%;
+  background: var(--crust); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.35);
+  transition: transform .15s;
+}
+.pin.is-active span { background: var(--green); border-color: #fff; transform: scale(1.45); box-shadow: 0 0 0 3px var(--crust), 0 1px 6px rgba(0,0,0,.4); }
+@media (prefers-reduced-motion: reduce) { .pin span { transition: none; } }
+.leaflet-tooltip.pin-label { font-family: var(--font); font-size: .8rem; font-weight: 700; }
+
+/* 一般ページ */
+.page { max-width: 760px; margin: 0 auto; padding: 20px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: flex; flex-direction: column; gap: 18px; }
+.page__title { margin: 0; font-size: 1.6rem; line-height: 1.35; text-wrap: balance; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.page__count { font-size: .9rem; color: var(--muted); font-weight: 400; }
+.page__lead { margin: 0; color: var(--muted); }
+.crumbs { display: flex; flex-wrap: wrap; gap: 2px 0; font-size: .82rem; color: var(--muted); }
+.crumbs a, .crumbs span { white-space: nowrap; }
+.crumbs a { color: var(--muted); }
+.crumbs > * + *::before { content: "›"; margin: 0 8px; color: var(--line); }
+
+.area-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.area-grid li a, .area-grid li span.area-empty {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
+  padding: 12px 14px; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line);
+  text-decoration: none; color: var(--ink); font-weight: 700; min-height: 52px;
+}
+.area-grid li a:hover { border-color: var(--crust); }
+.area-grid b { color: var(--crust-deep); font-variant-numeric: tabular-nums; flex: none; }
+.area-grid .area-empty b { color: var(--muted); font-weight: 400; }
+.area-grid .area-empty { color: var(--muted) !important; font-weight: 400 !important; background: transparent !important; border-style: dashed !important; }
+
+.list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.list li { border-bottom: 1px solid var(--line); }
+.list a { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 14px 4px; text-decoration: none; color: var(--ink); }
+.list a:hover .list__name { color: var(--crust-deep); text-decoration: underline; }
+.list__name { font-weight: 700; }
+.list__meta { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+
+/* 店ページ */
+.shop__head { display: flex; flex-direction: column; gap: 2px; }
+.shop__town { margin: 0; color: var(--crust-deep); font-weight: 700; font-size: .85rem; letter-spacing: .06em; }
+.shop__name { margin: 0; font-size: 1.7rem; line-height: 1.35; text-wrap: balance; }
+.shop__reading { margin: 0; color: var(--muted); font-size: .9rem; }
+.shop__video { display: flex; flex-direction: column; gap: 6px; }
+.shop__video .player__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.shop__yt { font-size: .88rem; }
+.facts { margin: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.facts > div { display: grid; grid-template-columns: 6.5em minmax(0, 1fr); gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.facts dt { color: var(--muted); font-size: .88rem; }
+.facts dd { margin: 0; overflow-wrap: anywhere; }
+.facts ul { margin: 0; padding-left: 1.1em; }
+.shop__h2 { font-size: 1.05rem; margin: 0 0 8px; }
+.shop__pin, .shop__note { margin: 6px 0 0; color: var(--muted); font-size: .82rem; }
+
+/* 文章のページ */
+.prose h2 { font-size: 1.15rem; margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--line); }
+.prose p, .prose ul { margin: 0; max-width: 68ch; }
+.prose li + li { margin-top: 8px; }
+.credits { margin: 0; display: grid; gap: 12px; }
+.credits > div { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+.credits dt { font-weight: 700; margin-bottom: 4px; }
+.credits dd { margin: 0; }
+.contact { background: var(--crust-soft); border-radius: var(--radius); padding: 12px 14px; margin: 0; overflow-wrap: anywhere; }
+
+/* フッター */
+.site-footer { background: var(--green); color: var(--green-ink); font-size: .82rem; }
+.site-footer__inner { max-width: 1280px; margin: 0 auto; padding: 20px max(16px, env(safe-area-inset-right, 0px)) calc(24px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.site-footer p { margin: 0 0 6px; max-width: 72ch; }
+.site-footer a { color: inherit; }
+.site-footer__name { font-weight: 700; }
+
+/* Leaflet の帰属表示を読みやすく */
+.leaflet-control-attribution { font-size: 11px; }

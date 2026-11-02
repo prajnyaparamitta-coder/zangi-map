@@ -1,0 +1,156 @@
+{
+  "subprefectures": [
+    {
+      "slug": "sorachi",
+      "name": "空知総合振興局",
+      "towns": [
+        {
+          "name": "美唄市",
+          "slug": "bibai"
+        },
+        {
+          "name": "三笠市",
+          "slug": "mikasa"
+        },
+        {
+          "name": "滝川市",
+          "slug": "takikawa"
+        }
+      ]
+    },
+    {
+      "slug": "ishikari",
+      "name": "石狩振興局",
+      "towns": [
+        {
+          "name": "札幌市",
+          "slug": "sapporo"
+        }
+      ]
+    },
+    {
+      "slug": "shiribeshi",
+      "name": "後志総合振興局",
+      "towns": [
+        {
+          "name": "小樽市",
+          "slug": "otaru"
+        }
+      ]
+    },
+    {
+      "slug": "iburi",
+      "name": "胆振総合振興局",
+      "towns": [
+        {
+          "name": "室蘭市",
+          "slug": "muroran"
+        },
+        {
+          "name": "登別市",
+          "slug": "noboribetsu"
+        },
+        {
+          "name": "苫小牧市",
+          "slug": "tomakomai"
+        }
+      ]
+    },
+    {
+      "slug": "hidaka",
+      "name": "日高振興局",
+      "towns": []
+    },
+    {
+      "slug": "oshima",
+      "name": "渡島総合振興局",
+      "towns": [
+        {
+          "name": "函館市",
+          "slug": "hakodate"
+        }
+      ]
+    },
+    {
+      "slug": "hiyama",
+      "name": "檜山振興局",
+      "towns": []
+    },
+    {
+      "slug": "kamikawa",
+      "name": "上川総合振興局",
+      "towns": [
+        {
+          "name": "旭川市",
+          "slug": "asahikawa"
+        },
+        {
+          "name": "東神楽町",
+          "slug": "higashikagura"
+        }
+      ]
+    },
+    {
+      "slug": "rumoi",
+      "name": "留萌振興局",
+      "towns": []
+    },
+    {
+      "slug": "soya",
+      "name": "宗谷総合振興局",
+      "towns": []
+    },
+    {
+      "slug": "okhotsk",
+      "name": "オホーツク総合振興局",
+      "towns": [
+        {
+          "name": "北見市",
+          "slug": "kitami"
+        }
+      ]
+    },
+    {
+      "slug": "tokachi",
+      "name": "十勝総合振興局",
+      "towns": [
+        {
+          "name": "帯広市",
+          "slug": "obihiro"
+        },
+        {
+          "name": "広尾町",
+          "slug": "hiroo"
+        },
+        {
+          "name": "清水町",
+          "slug": "shimizu"
+        }
+      ]
+    },
+    {
+      "slug": "kushiro",
+      "name": "釧路総合振興局",
+      "towns": [
+        {
+          "name": "釧路市",
+          "slug": "kushiro"
+        },
+        {
+          "name": "釧路町",
+          "slug": "kushiro-cho"
+        }
+      ]
+    },
+    {
+      "slug": "nemuro",
+      "name": "根室振興局",
+      "towns": [
+        {
+          "name": "中標津町",
+          "slug": "nakashibetsu"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<div class="top">
+  <section class="top__map" aria-label="店の地図">
+    <div id="map" class="map map--top" data-root="$root"></div>
+    <noscript><p class="noscript">地図を表示するには JavaScript を有効にしてください。<a href="${root}areas/">地域から探す</a>からも店を選べます。</p></noscript>
+  </section>
+  <section class="top__panel" aria-live="polite">
+    <div class="player">
+      <div class="player__frame"><div id="player"></div></div>
+    </div>
+    <div class="now">
+      <p class="now__town" id="now-town">$shop_count店のザンギ</p>
+      <h1 class="now__name" id="now-name">地図のピンを押すと、その店のザンギの動画が流れます</h1>
+      <p class="now__addr" id="now-addr"></p>
+      <div class="now__actions">
+        <a class="btn btn--primary" id="now-link" href="${root}areas/" hidden>店のページへ</a>
+        <button type="button" class="btn" id="btn-random">ランダム再生</button>
+        <button type="button" class="btn" id="btn-next" hidden>次の店へ</button>
+      </div>
+      <p class="now__note" id="now-mode"></p>
+    </div>
+  </section>
+</div>
+<script type="application/json" id="shops-data">$shops_json</script>
